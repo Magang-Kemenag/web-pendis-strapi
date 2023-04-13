@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "critics",
+  "info": {
+    "singularName": "critic",
+    "pluralName": "critics",
+    "displayName": "Critic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "writer": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

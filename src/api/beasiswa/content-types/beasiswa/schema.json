@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beasiswas",
+  "info": {
+    "singularName": "beasiswa",
+    "pluralName": "beasiswas",
+    "displayName": "Beasiswa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

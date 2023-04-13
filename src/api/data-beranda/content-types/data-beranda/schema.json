@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "data_berandas",
+  "info": {
+    "singularName": "data-beranda",
+    "pluralName": "data-berandas",
+    "displayName": "Data Beranda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sekolah": {
+      "type": "biginteger"
+    },
+    "siswa": {
+      "type": "biginteger"
+    },
+    "pengajar": {
+      "type": "biginteger"
+    },
+    "schools": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::school.school",
+      "mappedBy": "data_beranda"
+    }
+  }
+}
